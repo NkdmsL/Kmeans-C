@@ -57,7 +57,7 @@ int main(void)
     printCentroids()
 
     // Read the CSV
-    FILE *in=fopen("/Users/Nkdms/Desktop/kmeans/kmeans/input.csv","r");         /* open file on command line */
+    FILE *in=fopen("/input.csv","r");         /* open file on command line */
     
     // Safe side
     if(in==NULL)
