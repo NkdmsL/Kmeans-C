@@ -189,7 +189,7 @@ int main(void)
     
     
     
-    FILE *f = fopen("/Users/Nkdms/Desktop/kmeans/kmeans/OUTPUT.txt", "w");
+    FILE *f = fopen("kmeans/OUTPUT.txt", "w");
     if (f == NULL)
     {
         printf("Error opening file!\n");
